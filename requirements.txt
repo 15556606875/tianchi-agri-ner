@@ -1,0 +1,30 @@
+# ================ 核心依赖 ================
+# LLM API 客户端（OpenAI 兼容）
+openai>=1.0.0
+
+# 句向量模型
+sentence-transformers>=2.2.2
+torch>=2.0.0
+
+# FAISS 向量检索
+faiss-cpu>=1.7.4
+
+# 数据处理
+numpy>=1.24.0
+scikit-learn>=1.3.0
+tqdm>=4.65.0
+
+# ================ 可选依赖 ================
+# 雅虎AI（如果要用 DashScope API）
+# dashscope>=1.0.0
+
+# 智谱AI（如果要用 GLM API）
+# zhipuai>=2.0.0
+
+# ================ 开发依赖 ================
+# Jupyter Notebook 支持
+jupyter>=1.0.0
+ipython>=8.0.0
+
+# 代码格式化
+black>=23.0.0
