@@ -1,0 +1,59 @@
+# Python / Jupyter
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# 虚拟环境
+venv/
+env/
+.venv/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# 数据 / 缓存 / 中间产物
+cache/
+processed_data/
+*.cache
+*.pkl
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.parquet
+*.feather
+
+# 提交结果（体积大、可重新生成）
+submit*.json
+*predictions*.json
+*submit*.zip
+results/
+outputs/
+
+# 日志
+*.log
+logs/
+
+# 环境配置 / 密钥
+.env
+.env.local
+*.key
+*.pem
+config.ini
